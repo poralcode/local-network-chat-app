@@ -25,7 +25,7 @@ Sample output located in: `bin/Release/net6.0-windows`
 Tested on Windows 11
 
 ## Screenshots
-![Alt text](/[screenshots/path/to/img.jpg?raw=true](https://github.com/poralcode/local-network-chat-app/blob/main/Screenshots/Client%20-%201.png) "Optional Title")
+![Alt text](/[[screenshots/path/to/img.jpg?raw=true](https://github.com/poralcode/local-network-chat-app/blob/main/Screenshots/Client%20-%201.png](https://github.com/poralcode/local-network-chat-app/blob/main/Screenshots/Client%20-%201.png)) "Optional Title")
 
 ## Conclusion
 This project aims to create a functional chat application using C# and network socket programming techniques, providing a basic yet robust platform for communication between a server and multiple clients over a local network. The combination of TCP/IP for reliable data transfer and UDP for server discovery will ensure seamless connectivity.
