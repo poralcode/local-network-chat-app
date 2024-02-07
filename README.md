@@ -29,7 +29,7 @@ Tested on Windows 11
 ![Alt text](/../main/Screenshots/Server%20-%201.png?raw=true "Optional Title")
 ![Alt text](/../main/Screenshots/Server%20-%202.png?raw=true "Optional Title")
 ![Alt text](/../main/Screenshots/Server%20-%203.png?raw=true "Optional Title")
-![Alt text](/../main/Screenshots/Server%20-%20.png?raw=true "Optional Title")
+![Alt text](/../main/Screenshots/Server%20-%204.png?raw=true "Optional Title")
 
 ## Client
 ![Alt text](/../main/Screenshots/Client%20-%201.png?raw=true "Optional Title")
