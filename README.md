@@ -25,7 +25,10 @@ Sample output located in: `bin/Release/net6.0-windows`
 Tested on Windows 11
 
 ## Screenshots
+## Client
 ![Alt text](/../main/Screenshots/Client%20-%201.png?raw=true "Optional Title")
+![Alt text](/../main/Screenshots/Client%20-%202.png?raw=true "Optional Title")
+![Alt text](/../main/Screenshots/Client%20-%203.png?raw=true "Optional Title")
 
 ## Conclusion
 This project aims to create a functional chat application using C# and network socket programming techniques, providing a basic yet robust platform for communication between a server and multiple clients over a local network. The combination of TCP/IP for reliable data transfer and UDP for server discovery will ensure seamless connectivity.
