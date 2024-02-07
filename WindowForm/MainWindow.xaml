@@ -1,0 +1,82 @@
+﻿<Window
+    x:Class="local_network_chat_app.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    Background="#f1f1f1"
+    FontFamily="{materialDesign:MaterialDesignFont}"
+    TextElement.FontSize="18"
+    TextElement.FontWeight="Regular"
+    TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
+    <!--  Center the card horizontally and vertically  -->
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <materialDesign:Card>
+            <StackPanel>
+                <!--  Text Header  -->
+                <TextBlock Margin="16" Style="{DynamicResource MaterialDesignTitleTextBlock}">How would you like to start?</TextBlock>
+
+                <!--  Group Radio Button  -->
+                <StackPanel x:Name="radioButtonGroup" Margin="16">
+                    <RadioButton
+                        x:Name="radioButton1"
+                        Margin="0,0,0,5"
+                        GroupName="Group1"
+                        IsChecked="True">
+                        Server
+                    </RadioButton>
+                    <RadioButton
+                        x:Name="radioButton2"
+                        Margin="0,5,0,0"
+                        GroupName="Group1">
+                        Client
+                    </RadioButton>
+                </StackPanel>
+
+                <!--  Button  -->
+                <Button
+                    x:Name="continueButton"
+                    Margin="16"
+                    Click="ButtonContinue_Click"
+                    Content="Continue" />
+
+                <!--  Loading  -->
+                <Grid
+                    Name="progressContainer"
+                    Margin="16,0,16,16"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Visibility="Collapsed">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <ProgressBar
+                        Grid.Column="0"
+                        Width="15"
+                        Height="15"
+                        VerticalAlignment="Center"
+                        IsIndeterminate="True"
+                        Style="{StaticResource MaterialDesignCircularProgressBar}"
+                        Value="0" />
+                    <TextBlock
+                        x:Name="loadingText"
+                        Grid.Column="1"
+                        Margin="5,0,0,0"
+                        VerticalAlignment="Center"
+                        TextElement.FontSize="16">
+                        Connecting to server...
+                    </TextBlock>
+                </Grid>
+
+
+            </StackPanel>
+        </materialDesign:Card>
+    </Grid>
+</Window>
