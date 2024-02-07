@@ -25,6 +25,12 @@ Sample output located in: `bin/Release/net6.0-windows`
 Tested on Windows 11
 
 ## Screenshots
+## Server
+![Alt text](/../main/Screenshots/Server%20-%201.png?raw=true "Optional Title")
+![Alt text](/../main/Screenshots/Server%20-%202.png?raw=true "Optional Title")
+![Alt text](/../main/Screenshots/Server%20-%203.png?raw=true "Optional Title")
+![Alt text](/../main/Screenshots/Server%20-%20.png?raw=true "Optional Title")
+
 ## Client
 ![Alt text](/../main/Screenshots/Client%20-%201.png?raw=true "Optional Title")
 ![Alt text](/../main/Screenshots/Client%20-%202.png?raw=true "Optional Title")
